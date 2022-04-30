@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Wilfrey Angoli</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+
+        <link rel = "preconnect" href = "http://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+
+        <div class = "hero">
+            <nav>
+                <h2 class = "logo"> Wilfrey<span>Angoli</span></h2>
+                <ul>
+                    <li><a href="#content">Accueil</a></li>
+                    <li><a href="#about-text">Qui je suis</a></li>
+                    <li><a href="#allskills">Compétences</a></li>
+                    <li><a href="#content">Contact</a></li>
+                    </ul>
+                    <a href = "Wilfrey_Angoli_CV.pdf" class = "btn" >CV</a>
+                </ul>
+            </nav>
+
+            <div class = "content">
+                <h4><span>Bonjour</span>, mon nom est</h4>
+                <h1><a>Wilfrey Angoli</a></h1>
+                <h3>Je me forme pour devenir <span>Developpeur Full-Stack</span>.</h3>
+                <div class = "newsletter">
+                    <form action="https://formspree.io/f/xoqrpkld" method="POST">
+                        <input type = "text" name="name" id = "name" placeholder="Votre nom :"required>
+                        <input type = "email" name="email" id = "email" placeholder= "Email :"required>
+                        <input type = "text" name= "tel"  placeholder = "tel :" required>
+                        <textarea id = "message" rows= "4" placeholder= "Restons en contact :"></textarea>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!---Partie Section--->
+        <section class= "about" id="about-text">
+            <div class = "main">
+                <img src="pictures/FullSizeRender.jpg" alt="">
+                <div class = "about-text">
+                    <h2>Qui je suis :</h2>
+                    <h4>Full Stack-Developpeur <span> à en devenir</span>:</h4>
+                    <p>  
+                        Je poursuis actuellement un formation pour devenir "Dévloppeur Full-Stack option Flutter".
+                         L'objectif est qu'un jour je puisse répondre completement aux attentes de ce métiers,
+                         c'est-à-dire être en mesure de réaliser la programmation d'un site ou d'une
+                         application web à la fois Front-end mais aussi Back-end.
+                    </p>
+                        
+                </div>
+            </div>
+        </section>
+        <!--- Section Competences-->
+        <div class = allskills id= "allskills">
+            <div class ="competences">
+                <h2><i class="fa-solid fa-bars-progress"></i><h2>Mes Compétences :</h2>
+            </div>
+            <div class = "box">
+                <div class = "card">
+                    <i class="fa-solid fa-code"></i>
+                    <h5>Html/CSS</h5>
+                    <div class = "paragraph">
+                        <p>Je dispose de connaissances en HTML et CSS.</p>
+                    </div>
+                </div>
+
+                <div class = "card">
+                    <i class="fa-brands fa-js"></i>
+                    <h5>JavaScript</h5>
+                    <div class = "paragraph">
+                        <p>Je dispose de connaissances en JavaScript.</p>
+                    </div>
+                </div>
+
+                <div class = "card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <h5>Dart</h5>
+                    <div class = "paragraph">
+                        <p>Je dispose de connaissances en Dart et je comprends sa structure en Orientée Objet.</p>
+                    </div>
+                </div>
+
+                <div class = "card">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <h5>Solidity</h5>
+                    <div class = "paragraph">
+                        <p>J'ai quelques connaissances sur Solidity et quelques connaissances sur les principes de la Blockchain.</p>
+                    </div>
+                </div>
+
+                <div class = "card">
+                    <i class="fa-brands fa-python"></i>
+                    <h5>Python</h5>
+                    <div class = "paragraph">
+                        <p>Je dispose de connaissances sur le langage Python.</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        
+
+
+
+    <script src = "app.js"></script>
+
+    </body>
+</html>
